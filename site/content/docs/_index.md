@@ -53,18 +53,18 @@ Checkly synthetic checks are automated end to end tests that simulate user inter
 {{< doc-card
 	  class="two-column-card"
 	  headerTag="h3"
-	  title="Create a Browser check"
-	  img="/docs/images/icons/browser-checks.svg"
-	  description="Use TS / JS with @playwright/test and Headless browsers to navigate, screenshot and assert your key webapp flows."
-	  link="/docs/browser-checks/"
+	  title="Create a Playwright check suite (Beta)"
+	  img="/docs/images/icons/playwright-check.svg"
+	  description="Use your existing Playwright tests as live, scheduled monitoring checks to verify functionality, performance, and reliability from different locations"
+	  link="/docs/playwright-checks/"
 >}}
 {{< doc-card
 	  class="two-column-card"
 	  headerTag="h3"
-	  title="Create an API check"
-	  img="/docs/images/icons/api.svg"
-	  description="Monitor the latency and assert the correctness of your API endpoints. Use setup and teardown scripts to customize your requests."
-	  link="/docs/api-checks"
+	  title="Create a Browser check"
+	  img="/docs/images/icons/browser-checks.svg"
+	  description="Use TS / JS with @playwright/test and Headless browsers to navigate, screenshot and assert your key webapp flows."
+	  link="/docs/browser-checks/"
 >}}
 </div>
 
@@ -80,14 +80,14 @@ Checkly synthetic checks are automated end to end tests that simulate user inter
 {{< doc-card
 	  class="two-column-card"
 	  headerTag="h3"
-	  title="Create a Playwright check suite (Beta)"
-	  img="/docs/images/icons/playwright-check.svg"
-	  description="Use your existing Playwright tests as live, scheduled checks to verify functionality, performance, and reliability from different locations"
-	  link="/docs/playwright-checks/"
+	  title="Create an API check"
+	  img="/docs/images/icons/api.svg"
+	  description="Monitor the latency and assert the correctness of your API endpoints. Use inline scripts and code to customize everything with setups and teardowns"
+	  link="/docs/api-checks"
 >}}
 </div>
 
-### Uptime Monitors
+### Uptime Monitors 
 Use Uptime monitors to regularly check if a website, port, or service is available and responding as expected.
 
 <div class="cards-list">
@@ -95,17 +95,17 @@ Use Uptime monitors to regularly check if a website, port, or service is availab
    class="two-column-card"
    headerTag="h3"
    title="Create a URL monitor"
-   img="/docs/images/icons/url.svg"
-   description="Monitor HTTP resources to verify that your website or service is online and returning the expected response."
-   link="/docs/url-monitors/"
+   img="/docs/images/icons/http.svg"
+   description="Monitor HTTP available resources to verify that the website or service is online and returning the expected response."
+   link="/docs/http-checks/"
 >}}
 {{< doc-card
-	class="two-column-card"
-	headerTag="h3"
+	  class="two-column-card"
+	  headerTag="h3"
     title="Create a TCP monitor"
     img="/docs/images/icons/tcp.svg"
     description="Monitor the availability and performance of your TCP services by establishing TCP connections and verifying the response."
-    link="/docs/tcp-monitors/"
+    link="/docs/tcp-checks/"
 >}}
 </div>
 
@@ -116,7 +116,21 @@ Use Uptime monitors to regularly check if a website, port, or service is availab
    title="Create a Heartbeat monitor"
    img="/docs/images/icons/heartbeats-check-stroked.svg"
    description="Monitor your backup jobs, data imports, and other recurring jobs or scripts by pinging Checkly at a regular interval."
-   link="/docs/heartbeat-monitors/"
+   link="/docs/heartbeat-checks/"
+>}}
+</div>
+
+### Create alert channels
+Alert channels are communication methods, such as email, SMS, Phone Calls, or chat apps, used to quickly notify teams about incidents so they can respond and resolve issues swiftly.
+
+<div class="cards-list">
+{{< doc-card
+	class="full-width-card"
+	headerTag="h3"
+	title="Set up alert channels"
+	img="/docs/images/icons/alerting.svg"
+	description="Get notified about outages, broken transactions or slow downs in your webapps and APIs. Connect to one of our many integrations like Slack, Pagerduty and Discord."
+	link="/docs/alerting"
 >}}
 </div>
 
